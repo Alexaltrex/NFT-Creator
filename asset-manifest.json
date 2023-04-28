@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/NFT-Creator/static/css/main.d3da2fa9.css",
+    "main.js": "/NFT-Creator/static/js/main.29a7bf40.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/NFT-Creator/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/head0.png": "/NFT-Creator/static/media/head0.25154fb4ad186061560c.png",
+    "static/media/head1.png": "/NFT-Creator/static/media/head1.c0f087008a499a2f78e5.png",
+    "static/media/head2.png": "/NFT-Creator/static/media/head2.58598d80247f9f5dddc0.png",
+    "static/media/body.png": "/NFT-Creator/static/media/body.32dde788cf8a7309a14b.png",
+    "static/media/nose0.png": "/NFT-Creator/static/media/nose0.74d85b5eef34b083af5f.png",
+    "static/media/earRight.png": "/NFT-Creator/static/media/earRight.f69202d41dd7e1e1d624.png",
+    "static/media/bows0.png": "/NFT-Creator/static/media/bows0.8f4a4468a62435a58a65.png",
+    "static/media/nose1.png": "/NFT-Creator/static/media/nose1.db52cee7b80fffad60d6.png",
+    "static/media/bows2.png": "/NFT-Creator/static/media/bows2.84e17a4e9c53376e5efe.png",
+    "static/media/bows1.png": "/NFT-Creator/static/media/bows1.a5a17d99743459ba7164.png",
+    "static/media/earLeft.png": "/NFT-Creator/static/media/earLeft.85c1de2bd7376084f551.png",
+    "static/media/nose2.png": "/NFT-Creator/static/media/nose2.4a1242f4000037f664fe.png",
+    "static/media/nose3.png": "/NFT-Creator/static/media/nose3.c8fe6d3f49ca73fa06bb.png",
+    "static/media/mask.png": "/NFT-Creator/static/media/mask.e57ed6d409c6e96a33aa.png",
+    "static/media/text.png": "/NFT-Creator/static/media/text.3336abd23b8952645c73.png",
+    "static/media/mouth4.png": "/NFT-Creator/static/media/mouth4.c330feac8fe1e7fbb215.png",
+    "static/media/mouth5.png": "/NFT-Creator/static/media/mouth5.f6c6070dd765eaaa58e6.png",
+    "static/media/eyes0.png": "/NFT-Creator/static/media/eyes0.0bcd46f2ba96a5782a7d.png",
+    "static/media/eyes1.png": "/NFT-Creator/static/media/eyes1.1895890735bc9a98ec76.png",
+    "static/media/mouth0.png": "/NFT-Creator/static/media/mouth0.a92f5c6ead39d14c4844.png",
+    "static/media/mouth3.png": "/NFT-Creator/static/media/mouth3.2c90da20fd39aa9c391c.png",
+    "static/media/mouth2.png": "/NFT-Creator/static/media/mouth2.66f56fbceeef12298b9a.png",
+    "static/media/mouth1.png": "/NFT-Creator/static/media/mouth1.f284f8a8e7a56e47a21d.png",
+    "index.html": "/NFT-Creator/index.html",
+    "main.d3da2fa9.css.map": "/NFT-Creator/static/css/main.d3da2fa9.css.map",
+    "main.29a7bf40.js.map": "/NFT-Creator/static/js/main.29a7bf40.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/NFT-Creator/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3da2fa9.css",
+    "static/js/main.29a7bf40.js"
+  ]
+}
