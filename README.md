@@ -6,7 +6,7 @@ The application implements the functionality:
 * Event logs for: buy from shop, change buy price.
 #### Development:
 * Demo: https://alexaltrex.github.io/NFT-Creator
-* Hardhat project: [NFT-Shop-Hardhat](https://github.com/Alexaltrex/NFT-Shop-Hardhat)
+* Hardhat project: [NFT-Creator-Hardhat](https://github.com/Alexaltrex/NFT-Creator-Hardhat)
 * Front-end: React
 * Smart-contract: Solidity
 * Interaction between Front-end and Blockchain: ethers.js
