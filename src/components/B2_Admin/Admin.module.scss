@@ -1,0 +1,31 @@
+@import "../../assets/style/app";
+
+.admin {
+  position: relative;
+  padding: 16px;
+  min-height: calc(100vh - 60px);
+  box-sizing: border-box;
+
+  .infoBlockColumn {
+    @include infoBlockColumn
+  }
+
+  .btn {
+    @include centerRow;
+    margin-top: 16px;
+
+    .preloaderWrapper {
+      position: relative;
+
+      .preloader {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        transform: translate(100%, -50%);
+        top: 50%;
+        right: -4px;
+      }
+    }
+
+  }
+}

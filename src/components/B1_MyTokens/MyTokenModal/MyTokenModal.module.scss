@@ -1,0 +1,114 @@
+@import "../../../assets/style/app";
+
+.myTokenModal {
+  .wrapper {
+    position: relative;
+    @include centerRow;
+    width: 100vw;
+    height: 100vh;
+
+    .content {
+      padding: 32px;
+      border-radius: 16px;
+      background: #FFF;
+      display: flex;
+      //align-items: center;
+      justify-content: center;
+
+      &:focus-visible {
+        outline: none;
+      }
+
+      .img {
+        width: 500px;
+        height: 500px;
+      }
+
+      .info {
+        margin-left: 16px;
+
+        .attributesLabel {
+          margin-top: 8px;
+        }
+
+        .attributes {
+          margin-top: 4px;
+
+          p {
+            span:nth-child(1) {
+              font-style: italic;
+              color: grey;
+            }
+
+
+          }
+
+        }
+
+        .buyBnt {
+          margin-top: 16px;
+          text-transform: none;
+
+          & > p > span {
+            color: orange;
+            font-weight: bold;
+          }
+        }
+
+        .removeFromAuction {
+          margin-top: 16px;
+        }
+
+        .addToAuction {
+          @include infoBlock;
+          margin-top: 16px;
+
+          .label {
+            background: #7b1fa2;
+          }
+
+          .form {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            border-left: 2px solid #9c27b0;
+            border-bottom: 2px solid #9c27b0;
+            border-right: 2px solid #9c27b0;
+            border-radius: 0 0 4px 4px;
+
+            .field input {
+              padding: 4.5px 14px;
+            }
+
+            .buyBtn {
+              @include centerRow;
+              border-radius: 0 0 2px 0;
+              height: 32px;
+
+              .preloaderWrapper {
+                position: relative;
+
+                .preloader {
+                  width: 25px;
+                  height: 25px;
+                  position: absolute;
+                  transform: translate(100%, -50%);
+                  top: 50%;
+                  right: -4px;
+                }
+              }
+            }
+
+          }
+        }
+
+
+      }
+    }
+
+    .closeBtn {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}

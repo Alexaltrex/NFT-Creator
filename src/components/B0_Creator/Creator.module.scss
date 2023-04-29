@@ -1,0 +1,161 @@
+@import "../../assets/style/app";
+
+.creator {
+  padding: 16px;
+  box-sizing: border-box;
+  min-height: calc(100vh - 60px);
+  background: #EEE;
+
+  .content {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 150px;
+
+      .wrapper {
+        border: 1px solid #000;
+        width: 400px;
+        height: 400px;
+        background: #262626;
+        position: relative;
+
+        .body, .earLeft, .earRight, .mask, .text {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 400px;
+          height: 400px;
+        }
+
+        .body {
+          z-index: 1;
+        }
+
+        .earLeft {
+          z-index: 2;
+        }
+
+        .swiperHead {
+          z-index: 3;
+
+          .btnClassName {
+            top: 125px;
+          }
+        }
+
+        .swiperEyes {
+          z-index: 4;
+
+          .btnClassName {
+            top: 195px;
+          }
+        }
+
+        .swiperMouth {
+          z-index: 5;
+
+          .btnClassName {
+            top: 275px;
+          }
+        }
+
+        .swiperNose {
+          z-index: 6;
+
+          .btnClassName {
+            top: 235px;
+          }
+        }
+
+        .swiperBows {
+          z-index: 7;
+
+          .btnClassName {
+            top: 160px;
+          }
+        }
+
+        .earRight {
+          z-index: 8;
+        }
+
+        .mask {
+          z-index: 9;
+        }
+
+        .text {
+          z-index: 10;
+        }
+
+
+      }
+
+      .createBtn {
+        margin-top: 16px;
+        width: 400px;
+        box-sizing: border-box;
+        text-transform: none;
+        @include centerRow;
+
+        .preloaderWrapper {
+          position: relative;
+
+          p {
+            span {
+              color: orange;
+            }
+          }
+
+          .preloader {
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            transform: translate(100%, -50%);
+            top: 50%;
+            right: -4px;
+          }
+        }
+      }
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+
+
+      .attributes {
+        margin-top: 16px;
+
+        p {
+          font-size: 18px;
+
+          &:not(:first-child) {
+            margin-top: 4px;
+          }
+
+          span {
+            color: #777;
+            font-style: italic;
+          }
+        }
+      }
+    }
+
+
+
+  }
+
+
+
+
+
+
+
+}

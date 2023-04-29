@@ -1,0 +1,73 @@
+.sliderWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+
+  .slider {
+    width: 400px;
+    height: 400px;
+
+    .slide {
+      width: 400px;
+      height: 400px;
+
+      img {
+        display: block;
+        width: 400px;
+        height: 400px;
+      }
+    }
+  }
+
+  .btnLeft {
+    position: absolute;
+    top: 0;
+    left: -2px;
+    transform: translateX(-100%);
+
+    svg {
+      transition: 0.3s;
+    }
+
+    &:hover {
+      color: green;
+    }
+
+    p {
+      position: absolute;
+      top: 50%;
+      left: -3px;
+      transform: translate(-100%, -50%);
+      color: #000;
+      font-size: 16px;
+    }
+  }
+
+  .btnRight {
+    position: absolute;
+    top: 0;
+    right: -2px;
+    transform: translateX(100%);
+
+    svg {
+      transition: 0.3s;
+    }
+
+    &:hover {
+      color: green;
+    }
+
+    p {
+      position: absolute;
+      top: 50%;
+      right: -3px;
+      transform: translate(100%, -50%);
+      color: #000;
+      font-size: 16px;
+    }
+  }
+}
+
+
