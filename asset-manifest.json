@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NFT-Creator/static/css/main.d3da2fa9.css",
-    "main.js": "/NFT-Creator/static/js/main.29a7bf40.js",
+    "main.js": "/NFT-Creator/static/js/main.e5fbf2e3.js",
     "static/js/787.c4e7f8f9.chunk.js": "/NFT-Creator/static/js/787.c4e7f8f9.chunk.js",
     "static/media/head0.png": "/NFT-Creator/static/media/head0.25154fb4ad186061560c.png",
     "static/media/head1.png": "/NFT-Creator/static/media/head1.c0f087008a499a2f78e5.png",
@@ -28,11 +28,11 @@
     "static/media/mouth1.png": "/NFT-Creator/static/media/mouth1.f284f8a8e7a56e47a21d.png",
     "index.html": "/NFT-Creator/index.html",
     "main.d3da2fa9.css.map": "/NFT-Creator/static/css/main.d3da2fa9.css.map",
-    "main.29a7bf40.js.map": "/NFT-Creator/static/js/main.29a7bf40.js.map",
+    "main.e5fbf2e3.js.map": "/NFT-Creator/static/js/main.e5fbf2e3.js.map",
     "787.c4e7f8f9.chunk.js.map": "/NFT-Creator/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3da2fa9.css",
-    "static/js/main.29a7bf40.js"
+    "static/js/main.e5fbf2e3.js"
   ]
 }
